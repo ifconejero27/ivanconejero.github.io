@@ -443,8 +443,8 @@ body {
   margin-top: auto;
   align-self: flex-start;
   display: inline-block;
-  background-color: 0A2947;
-  color: #ffffff;
+  background-color: #0a2947;
+  color: #f3e4c9;
   padding: 10px 20px;
   font-size: 0.95rem;
   font-weight: 600;
@@ -459,8 +459,8 @@ body {
 }
 
 .project-button:hover {
-  background-color: #005bc1;
-  transform: translateY(-1px);
+  background-color: #8b5e3c;
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
@@ -689,6 +689,11 @@ body {
   margin: 0 0 6px 0;
   line-height: 1.4;
 }
+.cert-card a:hover {
+  color: #4a5568;
+  font-size: 21px;
+  text-decoration: underline;
+}
 
 .cert-issuer {
   font-size: 1.1rem;
@@ -804,6 +809,8 @@ body {
 
 .info-item a:hover {
   color: #8b5e3c;
+  font-size: 18px;
+  text-decoration: underline;
 }
 
 .contact-form {
@@ -860,7 +867,7 @@ body {
 
 .submit-button:hover {
   background-color: #8b5e3c;
-  transform: translateY(-1px);
+  transform: scale(1.05);
 }
 
 @media (max-width: 768px) {
