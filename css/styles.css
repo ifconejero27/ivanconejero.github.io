@@ -70,31 +70,40 @@ body {
 }
 
 @media (max-width: 600px) {
-  #navbar body {
-    padding-top: 190px;
+  body {
+    padding-top: 70px;
   }
 
-  #navbar html {
-    scroll-padding-top: 190px;
+  html {
+    scroll-padding-top: 70px;
   }
 
   #navbar ul {
-    flex-direction: column;
-    padding: 10px 0;
-    height: auto;
+    height: 60px;
+    padding: 0 16px;
+    justify-content: space-between;
+    gap: 10px;
   }
 
-  #navbar ul li,
-  .navbar-name {
-    width: 100%;
+  #navbar ul li a {
+    padding: 10px 8px;
+    font-size: 0.95rem;
+  }
+
+  #navbar .navbar-name {
     margin-right: 0;
   }
 
-  .navbar-name a {
-    padding-left: 20px;
-    justify-content: center;
+  #navbar .navbar-name span {
+    display: none;
+  }
+
+  #navbar .nav-profile-img {
+    width: 36px;
+    height: 36px;
   }
 }
+
 
 /* Profile Section*/
 
