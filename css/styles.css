@@ -748,7 +748,6 @@ body {
 }
 
 /* footer */
-
 #footer {
   width: 100%;
   background-color: #ffffff;
@@ -757,15 +756,16 @@ body {
   box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.05);
   box-sizing: border-box;
   font-family: "Oswald", sans-serif;
-  text-align: center;
 }
 
 .footer-content {
   max-width: 1500px;
   margin: 0 auto;
   display: flex;
-  justify-content: space-between;
+  flex-direction: column;
+  justify-content: center;
   align-items: center;
+  gap: 8px;
 }
 
 #footer p {
@@ -774,6 +774,7 @@ body {
   margin: 0;
   font-weight: 300;
   letter-spacing: 0.5px;
+  text-align: center;
 }
 
 #footer p:last-child {
@@ -783,8 +784,6 @@ body {
 
 @media (max-width: 600px) {
   .footer-content {
-    flex-direction: column;
-    text-align: center;
     gap: 12px;
   }
 }
