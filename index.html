@@ -3,60 +3,259 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Learning Management System</title>
-    <link rel="stylesheet" href="02-css/login.css" />
+    <title>Ivan Conejero</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://googleapis.com" />
+    <link rel="preconnect" href="https://gstatic.com" crossorigin />
+    <link
+      href="https://googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
   </head>
-  <body>
-    <div class="background-color">
-      <h1 id="title" style="color: #1e293b">
-        Learning Management System (LMS)
-      </h1>
+    <nav id="navbar">
+      <ul>
+        <li class="navbar-name">
+          <a href="#name">
+            <img src="img/GradPic1x1.jpg" alt="Ivan Conejero" class="nav-profile-img" />
+            <span>Ivan Fuentes Conejero</span>
+          </a>
+        </li>
+        
+        <!-- Clean, semantic interactive button container -->
+        <button class="hamburger-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
 
-      <div class="login-container">
-        <div class="login-form">
-          <h1>Welcome</h1>
-          <p>Please log in to continue.</p>
-
-          <form id="loginForm">
-            <input type="text" id="username" placeholder="Username" required />
-
-            <input
-              type="password"
-              id="password"
-              placeholder="Password"
-              required
-              />
-
-            <button type="submit">Log In</button><br>
-            <p id = "register-link">Don't have an account? <a href="/01-html/register.html"><strong>Register</strong></a></p>
-          </form>
+        <div class="nav-links" id="navbar-links-container">
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
         </div>
-        <div class="login-image">
-  <div class="demo-accounts">
-    <h2>Demo Accounts</h2>
-    <p>Use these accounts to explore the LMS.</p>
+      </ul>
+    </nav>
 
-    <div class="account">
-      <span>Admin</span>
-      <code>admin / admin123</code>
-    </div>
+        <section id="name">
+          <img src="img/GradPic1x1.jpg" alt="Ivan Conejero" id="profile-img" />
+          <div class="about-content">
+            <h1>Ivan Fuentes Conejero</h1>
+            <h3>Junior Developer</h3>
+            <p>
+              Hi, I'm Ivan Conejero, a Magna Cum Laude BS Information Technology
+              graduate actively looking for Junior Developer opportunities to build
+              responsive web applications using JavaScript and Python/Django, backed
+              by a TESDA NC II Computer Systems Servicing certification.
+            </p>
+            <div id="links">
+              <a
+                href="https://www.facebook.com/IvanFuentesConejero"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="img/fb-logo.png" alt="Facebook" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ivan-conejero-02267739b/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="img/linkedIn-logo.png" alt="LinkedIn" />
+              </a>
+              <a
+                href="https://github.com/ifconejero27"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="img/gitHub-logo.png" alt="GitHub" />
+              </a>
+            </div>
+            <a
+              href="files/Ivan Fuentes Conejero Resume.pdf"
+              download
+              id="download-button"
+            >
+              Download Resume
+            </a>
+          </div>
+        </section>
+        <section id="about-me">
+          <div class="skills-content">
+            <h1>About Me:</h1>
+            <p>
+              A passionate and detail-oriented Junior Developer based in the
+              Philippines. I recently graduated Magna Cum Laude with a Bachelor’s
+              degree in Information Technology. I love building seamless,
+              high-performing digital experiences from the user interface down to
+              the network infrastructure.
+            </p>
+            <h2>Technologies I work with:</h2>
+            <div class="tech-grid">
+              <img src="img/HTML-logo.png" alt="HTML" />
+              <img src="img/CSS-logo.png" alt="CSS" />
+              <img src="img/JS-logo.png" alt="JavaScript" />
+              <img src="img/py-logo.png" alt="Python" />
+              <img src="img/java-logo.png" alt="Java" />
+              <img src="img/php-logo.png" alt="PHP" />
+              <img src="img/dj-logo.png" alt="" />
+              <img src="img/react-logo.png" alt="" />
+              <img src="img/sql-logo.png" alt="" />
+            </div>
+          </div>
+        </section>
+        <section id="projects">
+          <div class="projects-content">
+            <h1>Projects I built:</h1>
+            <div class="projects-grid">
+              <div>
+                <h2>
+                  Predicting Dengue Hotspots in Malabon City through AI and
+                  Integrated Weather-Case Analysis
+                </h2>
+                <p>
+                  This capstone project introduces an AI-based dengue hotspot
+                  predictive web application built on the Django Framework to
+                  replace reactive case-reporting in flood-prone Malabon City with
+                  proactive health surveillance. By training machine learning models
+                  on four years of historical health data and real-time
+                  environmental variables from weather APIs, the system generates
+                  dynamic, barangay-level risk maps through a user-friendly
+                  interface. Developed using a structured SDLC methodology, this
+                  cost-effective tool empowers local health officials to make
+                  data-informed decisions for targeted vector control, ultimately
+                  protecting vulnerable urban communities and filling a critical gap
+                  in Philippine medical informatics literature.
+                </p>
+                <a
+                  href="https://github.com/ifconejero27/AI-Dengue-Hotspot-Predictor-Django-" target="_blank"
+                rel="noopener noreferrer"
+                  class="project-button"
+                  >View Project</a
+                >
+              </div>
+              <!-- Next Projects-->
+            </div>
+          </div>
+        </section>
+        <section id="experience">
+      <div class="experience-content">
+        <h1>My Experiences:</h1>
+        <div class="experience-card">
+          <div class="experience-header">
+            <h2>Transfer It! Main Office Sta. Cruz Manila</h2>
+            <div class="title-date-row">
+              <h3>Web Developer</h3>
+              <span class="experience-date">Dec 2024 - Present</span>
+            </div>
+          </div>
+          <h4>Responsibilities:</h4>
+          <ul>
+            <li>Web Developer (DecoNetwork)</li>
+            <li>Banner and Publication Materials Editor (Canva & Adobe Photoshop)</li>
+            <li>Social Media Video Editor (Capcut & Filmora)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
 
-    <div class="account">
-      <span>Faculty</span>
-      <code>faculty01 / faculty123</code>
-    </div>
+        <section id="certifications">
+      <div class="certifications-content">
+        <h1>Certifications & Professional Development</h1>
+        <div class="certifications-grid">
+          <div class="cert-card">
+            <div class="cert-header">
+              <div>
+                <a href="files/NCII.pdf" download >Computer Systems Servicing - National Certificate II</a>
+                <p class="cert-issuer">TESDA | Viva Excel Institute Inc.</p>
+              </div>
+              <span class="cert-date">Apr 2026 - Apr 2031</span>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-header">
+              <div>
+                <a href="files/IOER CERTIFICATE.pdf" download >International Research Conference on Social Sciences, Education, and Tech Innovation</a>
+                <p class="cert-issuer">International Organization of Educators and Researchers Inc</p>
+              </div>
+              <span class="cert-date">Apr 26, 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-content">
+        <h1>Get In Touch</h1>
+        <p>
+          I am currently looking for Junior Developer opportunities! Whether you have a question, 
+          want to discuss a project, or just want to say hi, feel free to drop a message or reach out directly.
+        </p>
+        
+        <div class="contact-container">
+      
+          <div class="contact-info">
+            <h3>Direct Channels</h3>
+            <div class="info-item">
+              <span>Email:</span>
+              <a href="mailto:ifconejero27@gmail.com" target="_blank" rel="noopener noreferrer">ifconejero27@gmail.com</a><br /><br />
+              <span>Mobile Number:</span>
+              <a href="tel:+639951772293" target="_blank" rel="noopener noreferrer">+63 995-177-2293</a>
+            </div>
+            <div class="info-item">
+              <span>Location:</span>
+              <p>Navotas, Metro Manila, Philippines</p>
+            </div>
+            <div class="info-item">
+              <span>Availability:</span>
+              <p>Open for Full-time / Hybrid / Remote Work</p>
+            </div>
+          </div>
 
-    <div class="account">
-      <span>Student</span>
-      <code>student01 / student123</code>
-    </div>
+      
+          <form class="contact-form" action="https://formspree.io/f/xrpzkdwg" method="POST">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Portfolio/thankyou.html" />
+              <div class="form-group">
+                <label for="form-name">Name</label>
+                <input type="text" id="form-name" name="name" required placeholder="Your Name" />
+              </div>
+              <div class="form-group">
+                <label for="form-email">Email</label>
+                <input type="email" id="form-email" name="email" required placeholder="Your Email" />
+              </div>
+              <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea id="form-message" name="message" rows="5" required placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="submit-button">Send Message</button>
+          </form>
 
-    <div class="register-note">
-      Or you can also register a new account by clicking the "Register" link on the login form.
-    </div>
-  </div>
-</div>
-    </div>
-    <script src="03-js/log-in-page.js"></script>
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="footer-content">
+        <p> &copy; 2026 Ivan Fuentes Conejero. All Rights Reserved.</p>
+      </div>
+    </footer>
+
   </body>
+    <script>
+      const menuBtn = document.getElementById("mobile-menu-btn");
+      const navLinks = document.getElementById("navbar-links-container");
+
+      menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("is-active");
+        navLinks.classList.toggle("open");
+      });
+
+      // Automatically collapses the drawer tracking menu window when clicking any anchor node
+      document.querySelectorAll(".nav-links a").forEach(link => {
+        link.addEventListener("click", () => {
+          menuBtn.classList.remove("is-active");
+          navLinks.classList.remove("open");
+        });
+      });
+    </script>
 </html>
