@@ -210,13 +210,13 @@ img {
   display: block;
   width: 780px;
   height: 820px;
+  margin-right: -130px;
   object-fit: contain;
   object-position: bottom center;
   opacity: 0.65;
   filter: grayscale(25%) brightness(0.75);
   mask-image: linear-gradient(to bottom, black 65%, transparent 100%);
   -webkit-mask-image: linear-gradient(to bottom, black 65%, transparent 100%);
-  transform: scaleX(-1);
   transform-origin: bottom center;
 }
 
