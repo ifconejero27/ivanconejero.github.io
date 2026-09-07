@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Ivan Conejero</title>
+    <link rel="stylesheet" href="css/styles.css" />
+    <link rel="preconnect" href="https://googleapis.com" />
+    <link rel="preconnect" href="https://gstatic.com" crossorigin />
+    <link
+      href="https://googleapis.com/css2?family=Bebas+Neue&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+    <nav id="navbar">
+      <ul>
+        <li class="navbar-name">
+          <a href="#name">
+            <img src="img/profile.png" alt="Ivan Conejero" class="nav-profile-img" />
+            <span>Ivan Fuentes Conejero</span>
+          </a>
+        </li>
+        
+        <!-- Clean, semantic interactive button container -->
+        <button class="hamburger-btn" id="mobile-menu-btn" aria-label="Toggle Navigation Menu">
+          <span></span>
+          <span></span>
+          <span></span>
+        </button>
+
+        <div class="nav-links" id="navbar-links-container">
+          <li><a href="#about-me">About</a></li>
+          <li><a href="#projects">Projects</a></li>
+          <li><a href="#experience">Experience</a></li>
+          <li><a href="#certifications">Certifications</a></li>
+          <li><a href="#contact">Contact</a></li>
+        </div>
+      </ul>
+    </nav>
+
+        <section id="name">
+          <img src="img/profile.png" alt="Ivan Conejero" id="profile-img" />
+          <div class="about-content">
+            <h1>Ivan Fuentes Conejero</h1>
+            <h3>Junior Developer</h3>
+            <p>
+              Hi, I'm Ivan Conejero, a Magna Cum Laude BS Information Technology
+              graduate actively looking for Junior Developer opportunities to build
+              responsive web applications using JavaScript and Python/Django, backed
+              by a TESDA NC II Computer Systems Servicing certification.
+            </p>
+            <div id="links">
+              <a
+                href="https://www.facebook.com/IvanFuentesConejero"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="img/fb-logo.png" alt="Facebook" />
+              </a>
+              <a
+                href="https://www.linkedin.com/in/ivan-conejero-02267739b/"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="img/linkedin-logo.png" alt="LinkedIn" />
+              </a>
+              <a
+                href="https://github.com/ifconejero27"
+                target="_blank"
+                rel="noopener noreferrer"
+              >
+                <img src="img/github-logo.png" alt="GitHub" />
+              </a>
+            </div>
+            <a
+              href="files/Ivan Fuentes Conejero Resume.pdf"
+              download
+              id="download-button"
+            >
+              Download Resume
+            </a>
+          </div>
+        </section>
+        <section id="about-me">
+          <div class="skills-content">
+            <h1>About Me:</h1>
+            <p>
+              A passionate and detail-oriented Junior Developer based in the
+              Philippines. I recently graduated Magna Cum Laude with a Bachelor’s
+              degree in Information Technology. I love building seamless,
+              high-performing digital experiences from the user interface down to
+              the network infrastructure.
+            </p>
+            <h2>Technologies I work with:</h2>
+
+            <div class="tech-category">
+                <h3>Languages</h3>
+
+                <div class="tech-grid">
+                  <div class="tech-item">
+                    <img src="img/html-logo.png" alt="HTML" />
+                    <span>HTML5</span>
+                  </div>
+
+                  <div class="tech-item">
+                    <img src="img/css-logo.png" alt="CSS" />
+                    <span>CSS3</span>
+                  </div>
+
+                  <div class="tech-item">
+                    <img src="img/js-logo.png" alt="JavaScript" />
+                    <span>JavaScript ES6+</span>
+                  </div>
+
+                  <div class="tech-item">
+                    <img src="img/py-logo.png" alt="Python" />
+                    <span>Python</span>
+                  </div>
+
+                  <div class="tech-item">
+                    <img src="img/java-logo.png" alt="Java" />
+                    <span>Java</span>
+                  </div>
+
+                  <div class="tech-item">
+                    <img src="img/php-logo.png" alt="PHP" />
+                    <span>PHP</span>
+                  </div>
+
+                  <div class="tech-item">
+                    <img src="img/sql-logo.png" alt="SQL" />
+                    <span>SQL</span>
+                  </div>
+                </div>
+              </div>
+
+              <div class="tech-category">
+                <h3>Frameworks & Libraries</h3>
+
+                <div class="tech-grid">
+                  <div class="tech-item">
+                    <img src="img/react-logo.png" alt="React" />
+                    <span>React</span>
+                  </div>
+
+                  <div class="tech-item">
+                    <img src="img/django-logo.png" alt="Django" />
+                    <span>Django</span>
+                  </div>
+
+                  <div class="tech-item">
+                    <img src="img/node-logo.png" alt="Node.js" />
+                    <span>Node.js</span>
+                  </div>
+
+                  <div class="tech-item">
+                    <img src="img/express-logo.png" alt="Express.js" />
+                    <span>Express.js</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+    </section>
+    
+    <section id="projects">
+      <div class="projects-content">
+        <h1>Projects I built:</h1>
+
+        <div class="project-card">
+          <div class="project-number">01</div>
+
+          <div class="project-content">
+            <span class="project-category">AI & Predictive Analytics</span>
+
+            <h2>
+              Predicting Dengue Hotspots in Malabon City through AI and Integrated
+              Weather-Case Analysis
+            </h2>
+
+            <p>
+              A localized predictive analytics application that combines
+              historical dengue cases with weather data to forecast transmission
+              risk across barangays in Malabon City. The system uses a Random
+              Forest model for risk prediction and an interactive map to visualize
+              dengue hotspot severity.
+            </p>
+
+            <div class="project-tech">
+              <span>Python</span>
+              <span>Django</span>
+              <span>Pandas</span>
+              <span>Random Forest</span>
+              <span>Leaflet.js</span>
+              <span>SQLite</span>
+              <span>Open-Meteo</span>
+            </div>
+
+            <a
+              href="https://github.com/ifconejero27/AI-Dengue-Hotspot-Predictor-Django-"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="project-button"
+            >
+              View Project
+            </a>
+          </div>
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">02</div>
+
+          <div class="project-content">
+            <span class="project-category">Web Application</span>
+
+            <h2>University Learning Management System</h2>
+
+            <p>
+              A role-based university learning management system with dedicated
+              dashboards for administrators, faculty, and students. The system
+              manages academic activities, submissions, grades, attendance,
+              schedules, and announcements using JavaScript and browser storage.
+            </p>
+
+            <div class="project-tech">
+              <span>HTML5</span>
+              <span>CSS3</span>
+              <span>JavaScript</span>
+              <span>LocalStorage</span>
+            </div>
+
+            <div class="project-buttons">
+                <a
+                  href="https://github.com/ifconejero27/Learning-Management-System"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-button"
+                >
+                  View Repository
+                </a>
+
+                <a
+                  href="https://ifconejero27.github.io/Learning-Management-System/index.html"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  class="project-button"
+                >
+                  View Live Demo
+                </a>
+            </div>
+        </div>
+
+        </div>
+
+        <div class="project-card">
+          <div class="project-number">03</div>
+
+          <div class="project-content">
+            <span class="project-category">Full-Stack Web Application</span>
+
+            <h2>University Registrar Queueing System</h2>
+
+            <p>
+              A web-based queue management system designed for university
+              registrar offices. Students can register for a queue and track
+              their status, while employees can manage department queues and call
+              or complete students through dedicated dashboards. The system uses
+              a REST API to connect the React frontend with the Node.js and
+              Express backend.
+            </p>
+
+            <div class="project-tech">
+              <span>React</span>
+              <span>JavaScript</span>
+              <span>Tailwind CSS</span>
+              <span>Node.js</span>
+              <span>Express.js</span>
+              <span>REST API</span>
+            </div>
+
+            <div class="project-buttons">
+              <a
+                href="https://github.com/ifconejero27/queueing-system"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-button"
+              >
+                View Repository
+              </a>
+
+              <a
+                href="https://queueing-system-7e42-kohl.vercel.app/"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-button"
+              >
+                View Live Demo
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="experience">
+      <div class="experience-content">
+        <h1>My Experiences:</h1>
+        <div class="experience-card">
+          <div class="experience-header">
+            <h2>Transfer It! Main Office Sta. Cruz Manila</h2>
+            <div class="title-date-row">
+              <h3>Web Developer Intern</h3>
+              <span class="experience-date">Jan 2026 - Apr 2026</span>
+            </div>
+          </div>
+          <h4>Responsibilities:</h4>
+          <ul>
+            <li>Web Developer (DecoNetwork)</li>
+            <li>Banner and Publication Materials Editor (Canva & Adobe Photoshop)</li>
+            <li>Social Media Video Editor (Capcut & Filmora)</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+        <section id="certifications">
+      <div class="certifications-content">
+        <h1>Certifications & Development</h1>
+        <div class="certifications-grid">
+          <div class="cert-card">
+            <div class="cert-header">
+              <div>
+                <a href="files/NCII.pdf" download >Computer Systems Servicing - National Certificate II</a>
+                <p class="cert-issuer">TESDA | Viva Excel Institute Inc.</p>
+              </div>
+              <span class="cert-date">Apr 2026 - Apr 2031</span>
+            </div>
+          </div>
+          <div class="cert-card">
+            <div class="cert-header">
+              <div>
+                <a href="files/IOER CERTIFICATE.pdf" download >International Research Conference on Social Sciences, Education, and Tech Innovation</a>
+                <p class="cert-issuer">International Organization of Educators and Researchers Inc</p>
+              </div>
+              <span class="cert-date">Apr 26, 2026</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <section id="contact">
+      <div class="contact-content">
+        <h1>Get In Touch</h1>
+        <p>
+          I am currently looking for Junior Developer opportunities! Whether you have a question, 
+          want to discuss a project, or just want to say hi, feel free to drop a message or reach out directly.
+        </p>
+        
+        <div class="contact-container">
+      
+          <div class="contact-info">
+            <h3>Direct Channels</h3>
+            <div class="info-item">
+              <span>Email:</span>
+              <a href="mailto:ifconejero27@gmail.com" target="_blank" rel="noopener noreferrer">ifconejero27@gmail.com</a><br /><br />
+              <span>Mobile Number:</span>
+              <a href="tel:+639951772293" target="_blank" rel="noopener noreferrer">+63 995-177-2293</a>
+            </div>
+            <div class="info-item">
+              <span>Location:</span>
+              <p>Navotas, Metro Manila, Philippines</p>
+            </div>
+            <div class="info-item">
+              <span>Availability:</span>
+              <p>Open for Full-time / Hybrid / Remote Work</p>
+            </div>
+          </div>
+
+      
+          <form class="contact-form" action="https://formspree.io/f/xrpzkdwg" method="POST">
+            <input type="hidden" name="_next" value="http://127.0.0.1:5500/Portfolio/thankyou.html" />
+              <div class="form-group">
+                <label for="form-name">Name</label>
+                <input type="text" id="form-name" name="name" required placeholder="Your Name" />
+              </div>
+              <div class="form-group">
+                <label for="form-email">Email</label>
+                <input type="email" id="form-email" name="email" required placeholder="Your Email" />
+              </div>
+              <div class="form-group">
+                <label for="form-message">Message</label>
+                <textarea id="form-message" name="message" rows="5" required placeholder="Your Message"></textarea>
+              </div>
+              <button type="submit" class="submit-button">Send Message</button>
+          </form>
+
+        </div>
+      </div>
+    </section>
+    <footer id="footer">
+      <div class="footer-content">
+        <p> &copy; 2026 Ivan Fuentes Conejero. All Rights Reserved.</p>
+      </div>
+    </footer>
+
+  </body>
+    <script>
+      const menuBtn = document.getElementById("mobile-menu-btn");
+      const navLinks = document.getElementById("navbar-links-container");
+
+      menuBtn.addEventListener("click", () => {
+        menuBtn.classList.toggle("is-active");
+        navLinks.classList.toggle("open");
+      });
+
+      // Automatically collapses the drawer tracking menu window when clicking any anchor node
+      document.querySelectorAll(".nav-links a").forEach(link => {
+        link.addEventListener("click", () => {
+          menuBtn.classList.remove("is-active");
+          navLinks.classList.remove("open");
+        });
+      });
+    </script>
+</html>
