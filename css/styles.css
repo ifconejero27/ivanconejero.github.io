@@ -131,7 +131,17 @@ img {
   }
 
   .navbar-name span {
-    display: none;
+    display: inline;
+  }
+
+  .navbar-name a {
+    gap: 10px;
+    font-size: 0.85rem;
+  }
+
+  .nav-profile-img {
+    width: 36px;
+    height: 36px;
   }
 
   .hamburger-btn {
@@ -315,8 +325,8 @@ img {
 }
 
 #links a {
-  width: 42px;
-  height: 42px;
+  width: 45px;
+  height: 45px;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -331,8 +341,8 @@ img {
 }
 
 #links img {
-  width: 18px;
-  height: 18px;
+  width: 40px;
+  height: 40px;
   object-fit: contain;
 }
 
@@ -1267,6 +1277,29 @@ img {
     width: 100%;
     text-align: center;
   }
+}
+
+/* Footer */
+#footer {
+  width: 100%;
+  padding: 35px 7%;
+  background: #171717;
+  border-top: 1px solid #292929;
+}
+
+.footer-content {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.footer-content p {
+  margin: 0;
+  color: #777777;
+  font-size: 0.75rem;
+  font-weight: 400;
+  letter-spacing: 0.3px;
 }
 
 /* Mobile Footer */
