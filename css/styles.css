@@ -119,6 +119,10 @@ img {
   width: 100%;
 }
 
+.hamburger-btn {
+  display: none;
+}
+
 /* Mobile Navbar */
 
 @media (max-width: 768px) {
